@@ -624,7 +624,7 @@
         background-color: #2196f354;
         padding: 35px 20px;
         border-radius: 12px;
-        box-shadow: 6px 9px 13px 2px #0000009;
+        box-shadow: 6px 9px 13px 2px #00000965;
         width: 100%;
     }
     
@@ -676,6 +676,32 @@
         box-shadow: -3px 5px 17px 0px red;
     }
     /* -----------end portofil-----------  */
+    /* -----------start video-----------  */
+    
+    .video {
+        margin-top: 220px;
+        background-color: var(--min-background);
+    }
+    
+    .video .container {
+        padding-top: var(--min-padding-top);
+        padding-bottom: var(--min-padding-bottom);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .video video {
+        width: 100%;
+    }
+    /* -----------end video-----------  */
+    /* -----------start map-----------  */
+    
+    .map iframe {
+        width: 100%;
+    }
+    /* -----------end map-----------  */
     /* --- start animation--- */
     
     @keyframes up-and-down {
